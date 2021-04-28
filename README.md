@@ -1,0 +1,62 @@
+## ubuntu-bgrt-themes
+
+This is based on the work done on BGRT by [@Feichtmeier](https://github.com/Feichtmeier) and contains plymouth-themes for the following flavours:
+- [x] kubuntu
+- [x] ubuntu
+- [x] ubuntu-MATE
+
+## installation:
+
+```bash
+# clone this repository
+git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
+```
+
+```bash
+cd yaru-remix
+```
+
+**For ubuntu** 
+```bash
+# Initialize build system (only required once per repo)
+meson build -D ubuntu=true
+cd build
+
+# Build and install
+sudo ninja install
+```
+
+**For kubuntu** 
+```bash
+# Initialize build system (only required once per repo)
+meson build -D kubuntu=true
+cd build
+
+# Build and install
+sudo ninja install
+```
+
+**For ubuntu-MATE** 
+```bash
+# Initialize build system (only required once per repo)
+meson build -D ubuntu-mate=true
+cd build
+
+# Build and install
+sudo ninja install
+```
+
+## screenshots:
+
+- **ubuntu** plymouth-boot-progress:
+
+![ubuntu](/screenshots/ubuntu.png)
+
+- **ubuntu-MATE** plymouth-boot-progress:
+
+![ubuntu-mate](screenshots/ubuntu-mate.png)
+
+- **kubuntu** plymouth-boot-progress:
+
+![kubuntu](screenshots/kubuntu.png)
+
