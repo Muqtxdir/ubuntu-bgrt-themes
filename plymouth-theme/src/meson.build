@@ -27,6 +27,12 @@ foreach flavour: flavours
         meson.add_install_script('meson/ubuntu_post_install.sh')                 
   endif
   
+  if flavour == 'ubuntu-budgie'
+    install_data('ubuntu-budgie.png', rename : 'watermark.png',
+                 install_dir: plymouth_theme_dir)
+    meson.add_install_script('meson/ubuntu_budgie_post_install.sh')
+  endif
+  
   if flavour == 'ubuntu-mate'
     install_data('ubuntu-mate.png', rename : 'watermark.png',
                  install_dir: plymouth_theme_dir)

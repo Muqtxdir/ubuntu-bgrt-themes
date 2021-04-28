@@ -2,4 +2,5 @@ option('plymouth-theme', type: 'boolean', value: true, description:'build plymou
 
 option('kubuntu', type: 'boolean', value: false, description:'build for Kubuntu-flavour')
 option('ubuntu', type: 'boolean', value: false, description:'build for default-flavour')
+option('ubuntu-budgie', type: 'boolean', value: false, description:'build for ubuntu-budgie-flavour')
 option('ubuntu-mate', type: 'boolean', value: false, description:'build for ubuntu-MATE-flavour')

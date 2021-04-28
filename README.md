@@ -3,6 +3,7 @@
 This is based on the work done on BGRT by [@Feichtmeier](https://github.com/Feichtmeier) and contains plymouth-themes for the following flavours:
 - [x] kubuntu
 - [x] ubuntu
+- [x] ubuntu-Budgie
 - [x] ubuntu-MATE
 
 _WARNING!: This is still WIP and needs refinement_
@@ -48,6 +49,16 @@ cd build
 sudo ninja install
 ```
 
+**For ubuntu-Budgie** 
+```bash
+# Initialize build system (only required once per repo)
+meson build -D ubuntu-budgie=true
+cd build
+
+# Build and install
+sudo ninja install
+```
+
 ## screenshots:
 
 - **ubuntu** plymouth-boot-progress:
@@ -62,3 +73,6 @@ sudo ninja install
 
 ![kubuntu](screenshots/kubuntu.png)
 
+- **ubuntu-Budgie** plymouth-boot-progress:
+
+![ubuntu-budgie](screenshots/ubuntu-budgie.png)
