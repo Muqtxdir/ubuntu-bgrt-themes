@@ -5,6 +5,7 @@ foreach flavour: ['kubuntu', 'ubuntu', 'ubuntu-budgie', 'ubuntu-mate']
     continue
   endif
   flavours += flavour
+  message('install flavour ' + flavour)
 endforeach
 
 
