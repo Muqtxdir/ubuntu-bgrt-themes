@@ -15,7 +15,7 @@ git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
 ```
 
 ```bash
-cd yaru-remix
+cd ubuntu-bgrt-themes
 ```
 
 **For ubuntu** 
