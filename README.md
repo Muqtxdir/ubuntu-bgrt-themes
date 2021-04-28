@@ -5,6 +5,8 @@ This is based on the work done on BGRT by [@Feichtmeier](https://github.com/Feic
 - [x] ubuntu
 - [x] ubuntu-MATE
 
+_WARNING!: This is still WIP and needs refinement_
+
 ## installation:
 
 ```bash
