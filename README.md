@@ -1,10 +1,11 @@
 ## ubuntu-bgrt-themes
 
 This is based on the work done on BGRT by [@Feichtmeier](https://github.com/Feichtmeier) and contains plymouth-themes for the following flavours:
-- [x] kubuntu
-- [x] ubuntu
-- [x] ubuntu-Budgie
-- [x] ubuntu-MATE
+- [x] [kubuntu](https://kubuntu.org/)
+- [x] [ubuntu](https://ubuntu.com/)
+- [x] [ubuntu-Budgie](https://ubuntubudgie.org/)
+- [x] [ubuntu-MATE](https://ubuntu-mate.org/)
+- [x] [xubuntu](https://xubuntu.org/)
 
 _WARNING!: This is still WIP and needs refinement_
 
@@ -59,6 +60,16 @@ cd build
 sudo ninja install
 ```
 
+**For xubuntu** 
+```bash
+# Initialize build system (only required once per repo)
+meson build -D xubuntu=true
+cd build
+
+# Build and install
+sudo ninja install
+```
+
 ## screenshots:
 
 - **ubuntu** plymouth-boot-progress:
@@ -76,3 +87,7 @@ sudo ninja install
 - **ubuntu-Budgie** plymouth-boot-progress:
 
 ![ubuntu-budgie](screenshots/ubuntu-budgie.png)
+
+- **xubuntu** plymouth-boot-progress:
+
+![xubuntu](screenshots/xubuntu.png)

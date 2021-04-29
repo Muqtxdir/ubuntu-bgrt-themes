@@ -4,3 +4,4 @@ option('kubuntu', type: 'boolean', value: false, description:'build for Kubuntu-
 option('ubuntu', type: 'boolean', value: false, description:'build for default-flavour')
 option('ubuntu-budgie', type: 'boolean', value: false, description:'build for ubuntu-budgie-flavour')
 option('ubuntu-mate', type: 'boolean', value: false, description:'build for ubuntu-MATE-flavour')
+option('xubuntu', type: 'boolean', value: false, description:'build for Xubuntu-flavour')

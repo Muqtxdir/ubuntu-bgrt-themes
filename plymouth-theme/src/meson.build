@@ -38,6 +38,12 @@ foreach flavour: flavours
                  install_dir: plymouth_theme_dir)
     meson.add_install_script('meson/ubuntu_mate_post_install.sh')
   endif
+  
+  if flavour == 'xubuntu'
+    install_data('xubuntu.png', rename : 'watermark.png',
+                 install_dir: plymouth_theme_dir)
+    meson.add_install_script('meson/xubuntu_post_install.sh')
+  endif
 
 endforeach  
                  
