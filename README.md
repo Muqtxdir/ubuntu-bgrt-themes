@@ -17,39 +17,24 @@ _WARNING!: This is still WIP and needs refinement_
  - [ubuntu-Budgie](#For-ubuntu-Budgie)
  - [xubuntu](#For-xubuntu)
  
+ - [SOURCE-INSTALL](source-install.md)
 
 ### For ubuntu:
 
+_**Install:**_
+
+- Download [plymouth-theme-ubuntu-bgrt](https://github.com/Muqtxdir/ubuntu-bgrt-themes/releases/download/0.0.1/plymouth-theme-ubuntu-bgrt_0.0.1_all.deb)
+
+- Install **plymouth-theme-ubuntu-bgrt** package:
 ```bash
-# clone this repository
-git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
+cd ~/Downloads
+sudo dpkg -i plymouth-theme-ubuntu-bgrt_0.0.1_all.deb
 ```
 
-```bash
-cd ubuntu-bgrt-themes
-```
+_**Uninstall:**_
 
 ```bash
-# Initialize build system (only required once per repo)
-meson build -D ubuntu=true
-cd build
-
-# Build and install
-sudo ninja install
-
-# Install the ubuntu-bgrt plymouth-theme with priority
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/ubuntu-bgrt/ubuntu-bgrt.plymouth 200
-
-# Update-initramfs
-sudo update-initramfs -u
-```
-
-```bash
-# (Optional) Backup the ubuntu-logo displayed at the bottom of gdm-login
-sudo mv /usr/share/plymouth/ubuntu-logo.png /usr/share/plymouth/ubuntu-logo.png.bak
-
-# (Optional) Symlink ubuntu-logo.png to watermark.png
-sudo ln -s /usr/share/plymouth/themes/ubuntu-bgrt/watermark.png /usr/share/plymouth/ubuntu-logo.png
+sudo apt remove plymouth-theme-ubuntu-bgrt
 ```
 
 - **ubuntu** plymouth-boot-progress:
@@ -57,28 +42,21 @@ sudo ln -s /usr/share/plymouth/themes/ubuntu-bgrt/watermark.png /usr/share/plymo
 ![ubuntu](/screenshots/ubuntu.png)
 
 ### For kubuntu
+
+_**Install:**_
+
+- Download [plymouth-theme-kubuntu-bgrt](https://github.com/Muqtxdir/ubuntu-bgrt-themes/releases/download/0.0.1/plymouth-theme-kubuntu-bgrt_0.0.1_all.deb)
+
+- Install **plymouth-theme-kubuntu-bgrt** package:
 ```bash
-# clone this repository
-git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
+cd ~/Downloads
+sudo dpkg -i plymouth-theme-kubuntu-bgrt_0.0.1_all.deb
 ```
 
-```bash
-cd ubuntu-bgrt-themes
-```
+_**Uninstall:**_
 
 ```bash
-# Initialize build system (only required once per repo)
-meson build -D kubuntu=true
-cd build
-
-# Build and install
-sudo ninja install
-
-# Install the kubuntu-bgrt plymouth-theme with priority
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/kubuntu-bgrt/kubuntu-bgrt.plymouth 200
-
-# Update-initramfs
-sudo update-initramfs -u
+sudo apt remove plymouth-theme-kubuntu-bgrt
 ```
 
 - **kubuntu** plymouth-boot-progress:
@@ -87,28 +65,20 @@ sudo update-initramfs -u
 
 
 ### For ubuntu MATE
+_**Install:**_
+
+- Download [plymouth-theme-ubuntu-mate-bgrt](https://github.com/Muqtxdir/ubuntu-bgrt-themes/releases/download/0.0.1/plymouth-theme-ubuntu-mate-bgrt_0.0.1_all.deb)
+
+- Install **plymouth-theme-ubuntu-mate-bgrt** package:
 ```bash
-# clone this repository
-git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
+cd ~/Downloads
+sudo dpkg -i plymouth-theme-ubuntu-mate-bgrt_0.0.1_all.deb
 ```
 
-```bash
-cd ubuntu-bgrt-themes
-```
+_**Uninstall:**_
 
 ```bash
-# Initialize build system (only required once per repo)
-meson build -D ubuntu-mate=true
-cd build
-
-# Build and install
-sudo ninja install
-
-# Install the ubuntu-mate-bgrt plymouth-theme with priority
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/ubuntu-mate-bgrt/ubuntu-mate-bgrt.plymouth 200
-
-# Update-initramfs
-sudo update-initramfs -u
+sudo apt remove plymouth-theme-ubuntu-mate-bgrt
 ```
 
 - **ubuntu-MATE** plymouth-boot-progress:
@@ -116,28 +86,20 @@ sudo update-initramfs -u
 ![ubuntu-mate](screenshots/ubuntu-mate.png)
 
 ### For ubuntu Budgie
+_**Install:**_
+
+- Download [plymouth-theme-ubuntu-budgie-bgrt](https://github.com/Muqtxdir/ubuntu-bgrt-themes/releases/download/0.0.1/plymouth-theme-ubuntu-budgie-bgrt_0.0.1_all.deb)
+
+- Install **plymouth-theme-ubuntu-budgie-bgrt** package:
 ```bash
-# clone this repository
-git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
+cd ~/Downloads
+sudo dpkg -i plymouth-theme-ubuntu-budgie-bgrt_0.0.1_all.deb
 ```
 
-```bash
-cd ubuntu-bgrt-themes
-```
+_**Uninstall:**_
 
 ```bash
-# Initialize build system (only required once per repo)
-meson build -D ubuntu-budgie=true
-cd build
-
-# Build and install
-sudo ninja install
-
-# Install the ubuntu-budgie-bgrt plymouth-theme with priority
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/ubuntu-budgie-bgrt/ubuntu-budgie-bgrt.plymouth 200
-
-# Update-initramfs
-sudo update-initramfs -u
+sudo apt remove plymouth-theme-ubuntu-budgie-bgrt
 ```
 
 - **ubuntu-Budgie** plymouth-boot-progress:
@@ -145,28 +107,20 @@ sudo update-initramfs -u
 ![ubuntu-budgie](screenshots/ubuntu-budgie.png)
 
 ### For xubuntu 
+_**Install:**_
+
+- Download [plymouth-theme-xubuntu-bgrt](https://github.com/Muqtxdir/ubuntu-bgrt-themes/releases/download/0.0.1/plymouth-theme-xubuntu-bgrt_0.0.1_all.deb)
+
+- Install **plymouth-theme-xubuntu-bgrt** package:
 ```bash
-# clone this repository
-git clone https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
+cd ~/Downloads
+sudo dpkg -i plymouth-theme-xubuntu-bgrt_0.0.1_all.deb
 ```
 
-```bash
-cd ubuntu-bgrt-themes
-```
+_**Uninstall:**_
 
 ```bash
-# Initialize build system (only required once per repo)
-meson build -D xubuntu=true
-cd build
-
-# Build and install
-sudo ninja install
-
-# Install the xubuntu-bgrt plymouth-theme with priority
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/xubuntu-bgrt/xubuntu-bgrt.plymouth 200
-
-# Update-initramfs
-sudo update-initramfs -u
+sudo apt remove plymouth-theme-xubuntu-bgrt
 ```
 
 - **xubuntu** plymouth-boot-progress:
