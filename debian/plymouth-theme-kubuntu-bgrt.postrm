@@ -1,0 +1,39 @@
+#!/bin/sh -e
+
+#DEBHELPER#
+
+error()
+{
+    RET=$?
+    MSG=$1
+    echo "E: $MSG";
+    exit $RET
+}
+
+case "$1" in
+    remove)
+        update-alternatives \
+            --remove default.plymouth \
+                /usr/share/plymouth/themes/kubuntu-bgrt/kubuntu-bgrt.plymouth || error "Failed to update-alternatives"
+
+        if which update-initramfs >/dev/null 2>&1; then
+            update-initramfs -u || error "Failed to update-initramfs"
+        fi
+        ;;
+
+    purge)
+        ;;
+
+    upgrade|failed-upgrade|disappear)
+        ;;
+
+    abort-install|abort-upgrade)
+        ;;
+
+    *)
+        echo "$0 called with unknown argument \`$1'" 1>&2
+        exit 1
+        ;;
+esac
+
+exit 0

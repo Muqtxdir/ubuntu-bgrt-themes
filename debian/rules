@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+%:
+	dh $@ --buildsystem=meson
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-Dkubuntu=true \
+		-Dubuntu=true \
+		-Dubuntu-budgie=true \
+		-Dubuntu-mate=true \
+		-Dxubuntu=true 
+
+override_dh_missing:
+	dh_missing --fail-missing

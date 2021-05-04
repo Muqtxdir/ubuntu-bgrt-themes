@@ -1,5 +1,6 @@
 foreach flavour: flavours
   plymouth_theme_name = flavour + '-bgrt'
+  plymouth_dir = join_paths(get_option('prefix'), 'share/plymouth')
   plymouth_theme_dir = join_paths(get_option('prefix'), 'share/plymouth/themes', plymouth_theme_name)
   
   install_subdir('bgrt',
@@ -18,31 +19,26 @@ foreach flavour: flavours
   if flavour == 'kubuntu'
     install_data('kubuntu.png', rename : 'watermark.png',
                  install_dir: plymouth_theme_dir)
-    meson.add_install_script('meson/kubuntu_post_install.sh')
   endif
   
   if flavour == 'ubuntu'
     install_data('ubuntu.png', rename : 'watermark.png',
                  install_dir: plymouth_theme_dir)
-        meson.add_install_script('meson/ubuntu_post_install.sh')                 
   endif
   
   if flavour == 'ubuntu-budgie'
     install_data('ubuntu-budgie.png', rename : 'watermark.png',
                  install_dir: plymouth_theme_dir)
-    meson.add_install_script('meson/ubuntu_budgie_post_install.sh')
   endif
   
   if flavour == 'ubuntu-mate'
     install_data('ubuntu-mate.png', rename : 'watermark.png',
                  install_dir: plymouth_theme_dir)
-    meson.add_install_script('meson/ubuntu_mate_post_install.sh')
   endif
   
   if flavour == 'xubuntu'
     install_data('xubuntu.png', rename : 'watermark.png',
                  install_dir: plymouth_theme_dir)
-    meson.add_install_script('meson/xubuntu_post_install.sh')
   endif
 
 endforeach  
