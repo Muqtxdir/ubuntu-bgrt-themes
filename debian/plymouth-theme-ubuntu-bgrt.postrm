@@ -16,6 +16,11 @@ case "$1" in
             --remove default.plymouth \
                 /usr/share/plymouth/themes/ubuntu-bgrt/ubuntu-bgrt.plymouth || error "Failed to update-alternatives"
 
+        if [ -f /usr/share/plymouth/ubuntu-logo.png.bak ]; then
+            rm /usr/share/plymouth/ubuntu-logo.png || error "Failed to remove symlink ubuntu-logo.png to watermark.png"
+            mv /usr/share/plymouth/ubuntu-logo.png.bak /usr/share/plymouth/ubuntu-logo.png || error "Failed to reset to ubuntu-logo.png"
+        fi
+        
         if which update-initramfs >/dev/null 2>&1; then
             update-initramfs -u || error "Failed to update-initramfs"
         fi
