@@ -9,13 +9,13 @@ This is based on the work done on BGRT by [@Feichtmeier](https://github.com/Feic
 
 _WARNING!: This is still WIP and needs refinement_
 
-## installtion:
+## installation:
 
  - [ubuntu](#For-ubuntu)
  - [kubuntu](#For-kubuntu)
  - [ubuntu-MATE](#For-ubuntu-MATE)
  - [ubuntu-Budgie](#For-ubuntu-Budgie)
- - [xubntu](#For-xubuntu)
+ - [xubuntu](#For-xubuntu)
  
 
 ### For ubuntu:
