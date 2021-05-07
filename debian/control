@@ -11,9 +11,10 @@ Vcs-Git: https://github.com/Muqtxdir/ubuntu-bgrt-themes.git
 
 Package: plymouth-theme-ubuntu-bgrt
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
+Depends: libc6 (>= 2.29), libplymouth5 (>= 0.9.4git20200109), plymouth (= 0.9.4git20200323-0ubuntu6), plymouth-label (= 0.9.4git20200323-0ubuntu6), lsb-release, ${misc:Depends}
 Provides: plymouth-theme
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Breaks: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Replaces: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
 Description: boot animation, logger and I/O multiplexer - ubuntu-bgrt theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
  use for which is to provide an attractive graphical animation in place of
@@ -26,9 +27,10 @@ Description: boot animation, logger and I/O multiplexer - ubuntu-bgrt theme
 
 Package: plymouth-theme-kubuntu-bgrt
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
+Depends: libc6 (>= 2.29), libplymouth5 (>= 0.9.4git20200109), plymouth (= 0.9.4git20200323-0ubuntu6), plymouth-label (= 0.9.4git20200323-0ubuntu6), lsb-release, ${misc:Depends}
 Provides: plymouth-theme
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Breaks: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Replaces: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
 Description: boot animation, logger and I/O multiplexer - kubuntu-bgrt theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
  use for which is to provide an attractive graphical animation in place of
@@ -41,9 +43,10 @@ Description: boot animation, logger and I/O multiplexer - kubuntu-bgrt theme
 
 Package: plymouth-theme-xubuntu-bgrt
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
+Depends: libc6 (>= 2.29), libplymouth5 (>= 0.9.4git20200109), plymouth (= 0.9.4git20200323-0ubuntu6), plymouth-label (= 0.9.4git20200323-0ubuntu6), lsb-release, ${misc:Depends}
 Provides: plymouth-theme
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Breaks: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Replaces: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
 Description: boot animation, logger and I/O multiplexer - xubuntu-bgrt theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
  use for which is to provide an attractive graphical animation in place of
@@ -56,8 +59,9 @@ Description: boot animation, logger and I/O multiplexer - xubuntu-bgrt theme
 
 Package: plymouth-theme-ubuntu-mate-bgrt
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
-Provides: plymouth-theme
+Depends: libc6 (>= 2.29), libplymouth5 (>= 0.9.4git20200109), plymouth (= 0.9.4git20200323-0ubuntu6), plymouth-label (= 0.9.4git20200323-0ubuntu6), lsb-release, ${misc:Depends}
+Provides: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Replaces: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
 Breaks: plymouth (<< 0.9.2-3ubuntu1~)
 Description: boot animation, logger and I/O multiplexer - ubuntu-mate-bgrt theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
@@ -71,9 +75,10 @@ Description: boot animation, logger and I/O multiplexer - ubuntu-mate-bgrt theme
 
 Package: plymouth-theme-ubuntu-budgie-bgrt
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
+Depends: libc6 (>= 2.29), libplymouth5 (>= 0.9.4git20200109), plymouth (= 0.9.4git20200323-0ubuntu6), plymouth-label (= 0.9.4git20200323-0ubuntu6), lsb-release, ${misc:Depends}
 Provides: plymouth-theme
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Breaks: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Replaces: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
 Description: boot animation, logger and I/O multiplexer - ubuntu-budgie-bgrt theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
  use for which is to provide an attractive graphical animation in place of

@@ -10,12 +10,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   width="340"
+   width="341.5"
    height="49"
-   viewBox="0 0 340 49"
+   viewBox="0 0 341.5 49"
    sodipodi:docname="ubuntu-budgie-logo.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   inkscape:export-filename="/home/muqtadir/ubuntu-bgrt-themes/plymouth-theme/src/SVG/os-logo/ubuntu-budgie.png"
+   inkscape:export-filename="/home/muqtadir/ubuntu-bgrt-themes/plymouth-theme/src/ubuntu-budgie.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <metadata
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,11 +45,11 @@
      inkscape:window-height="704"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="0.97902689"
-     inkscape:cx="90.223954"
+     inkscape:zoom="1.3845531"
+     inkscape:cx="177.00019"
      inkscape:cy="9.1390016"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g10"
      inkscape:document-rotation="0">
@@ -139,19 +139,19 @@
       </g>
       <circle
          fill="#404552"
-         cy="15.824944"
-         cx="414.61356"
-         r="15.824944"
+         cy="16.53137"
+         cx="415.31998"
          id="circle32"
-         style="stroke-width:0.49453" />
+         style="stroke-width:0.516605"
+         r="16.53137" />
       <path
          id="budgie-shape"
          fill="#ffffff"
-         d="m 420.05348,18.548807 c -2.17098,0 -3.99579,1.541942 -4.5744,3.585337 -0.1221,0.431231 -0.20622,0.5786 -0.37089,0.865429 -0.21264,0.369413 -0.64289,0.902515 -1.23633,1.236324 -0.48316,0.27199 -0.89906,0.502935 -1.52117,0.408975 -0.16172,-0.02472 -0.44854,-0.06924 -0.73586,-0.234407 -0.45745,-0.262101 -0.60827,-0.49453 -0.9579,-1.162145 0.0495,0.714101 -0.0435,0.974225 0.30759,2.225384 0.69876,2.49045 3.38506,4.450767 6.55252,4.450767 2.34802,0 4.52396,-0.979169 5.74841,-2.472648 0.44755,-0.545962 0.78481,-0.976697 1.11269,-1.730855 0.2982,-0.684923 0.37089,-1.563703 0.37089,-2.349014 9.9e-4,-2.665515 -2.10274,-4.821664 -4.69803,-4.821664 z"
-         style="stroke-width:0.49453" />
+         d="m 421.00274,19.376827 c -2.26789,0 -4.17416,1.610774 -4.7786,3.745386 -0.12755,0.450482 -0.21542,0.604429 -0.38744,0.904062 -0.22214,0.385904 -0.67159,0.942804 -1.29152,1.291514 -0.50473,0.284131 -0.9392,0.525386 -1.58908,0.427232 -0.16894,-0.02582 -0.46856,-0.07233 -0.76871,-0.244871 -0.47787,-0.273802 -0.63542,-0.516606 -1.00066,-1.214024 0.0517,0.745979 -0.0454,1.017715 0.32132,2.324726 0.72996,2.601623 3.53617,4.649449 6.84503,4.649449 2.45283,0 4.72591,-1.022879 6.00502,-2.583027 0.46753,-0.570334 0.81984,-1.020297 1.16236,-1.808121 0.31151,-0.715498 0.38744,-1.633506 0.38744,-2.453874 0.001,-2.784503 -2.1966,-5.036903 -4.90775,-5.036903 z"
+         style="stroke-width:0.516605" />
       <use
          xlink:href="#budgie-shape"
-         transform="rotate(120,414.61355,15.82494)"
+         transform="rotate(120,415.31998,16.531368)"
          width="100%"
          height="100%"
          id="use35"
@@ -159,7 +159,7 @@
          y="0" />
       <use
          xlink:href="#budgie-shape"
-         transform="rotate(-120,414.61355,15.824943)"
+         transform="rotate(-120,415.31998,16.531371)"
          width="100%"
          height="100%"
          id="use37"
