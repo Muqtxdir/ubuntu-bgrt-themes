@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg62"
+   width="536"
+   height="536"
+   viewBox="0 0 536.00001 536.00001"
+   sodipodi:docname="ubuntu.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   inkscape:export-filename="/home/muqtadir/ubuntu-bgrt-themes/plymouth-theme/src/PNG/bgrt-fallback-logo/ubuntu.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata68">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs66" />
+  <sodipodi:namedview
+     pagecolor="#1d1d1d"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview64"
+     showgrid="true"
+     inkscape:zoom="0.6449685"
+     inkscape:cx="233.68888"
+     inkscape:cy="215.11771"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g70"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid74" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g70">
+    <circle
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:11.2034;enable-background:new"
+       id="path853"
+       cx="268.00027"
+       cy="267.99976"
+       r="225.00002" />
+    <path
+       d="M 268.01397,18 C 129.93539,18 18,129.9354 18,268.01397 18,406.09258 129.93539,518 268.01397,518 406.12034,518 518,406.12034 518,268.01397 518,129.90762 406.12034,18 268.01397,18 Z m 58.12082,84.87532 c 9.27924,-16.08607 29.83826,-21.586946 45.89658,-12.30752 16.08584,9.27927 21.58674,29.8383 12.3075,45.92415 -9.27926,16.08607 -29.83829,21.58695 -45.92434,12.3077 -16.08608,-9.27925 -21.55919,-29.83828 -12.27974,-45.92433 z M 98.318868,301.65837 c -18.5585,0 -33.616657,-15.05792 -33.616657,-33.61663 0,-18.58647 15.058157,-33.61664 33.616657,-33.61664 18.558712,0 33.616812,15.05792 33.616812,33.61664 0.0384,18.53094 -15.03034,33.61663 -33.616812,33.61663 z m 29.810522,2.97274 c 10.64069,-8.66814 17.41972,-21.83698 17.41972,-36.61714 0,-14.78032 -6.77903,-27.97695 -17.39174,-36.61732 9.05697,-35.20018 30.97724,-65.26073 60.39892,-84.93083 l 24.58739,41.17358 c -25.25426,17.80857 -41.78486,47.14677 -41.78486,80.37457 0,33.25558 16.50284,62.62153 41.75713,80.37458 l -24.55966,41.1734 c -29.42168,-19.64213 -51.34195,-49.70274 -60.4269,-84.93084 z m 243.90198,140.82902 c -16.05832,9.27948 -36.61734,3.80632 -45.89658,-12.3075 -9.27945,-16.05826 -3.80634,-36.61729 12.27974,-45.89658 16.08605,-9.27923 36.64508,-3.80613 45.92434,12.30769 9.27924,16.03037 3.77834,36.61713 -12.3075,45.89639 z m -0.0763,-73.26202 c -12.77984,-4.83422 -27.56016,-4.1119 -40.34,3.25052 -12.75226,7.38998 -20.78129,19.80874 -22.97613,33.31108 -12.41876,3.47282 -25.50434,5.3064 -39.03426,5.3064 -23.25395,0 -45.22974,-5.41761 -64.76082,-15.08593 l 23.36498,-41.89573 c 12.58547,5.86197 26.6155,9.1125 41.39584,9.1125 51.31416,0 93.43221,-39.33984 97.82189,-89.48708 l 47.92466,0.69497 c -2.33366,37.06171 -18.50316,70.31727 -43.39616,94.79366 z m -4.5286,-112.88004 c -4.38971,-50.17502 -46.50774,-89.51482 -97.8219,-89.51482 -14.78037,0 -28.81037,3.27827 -41.39587,9.14025 l -23.33723,-41.86798 c 19.53113,-9.6683 41.50692,-15.14142 64.76084,-15.14142 13.53016,0 26.61555,1.88965 39.03426,5.30637 2.19487,13.50238 10.22411,25.97663 22.97613,33.33885 12.77985,7.39015 27.56021,8.11253 40.31227,3.27848 24.893,24.44842 41.09026,57.704 43.39616,94.76567 z"
+       fill="#808080"
+       id="path2-36-7"
+       style="display:inline;fill:#e95420;fill-opacity:1;stroke-width:27.7826;enable-background:new" />
+  </g>
+</svg>
